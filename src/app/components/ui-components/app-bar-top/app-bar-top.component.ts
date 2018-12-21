@@ -7,7 +7,7 @@ import { AppBarTopData, AppBarTopOption } from '../../../data/ui-components';
   styleUrls: ['./app-bar-top.component.scss']
 })
 export class AppBarTopComponent { 
-  private data: AppBarTopData = new AppBarTopData('Home', [new AppBarTopOption('search', ()=> {
+  private data: AppBarTopData = new AppBarTopData('Home', [new AppBarTopOption('more_vert', ()=> {
     alert('TEST');
   })]);
 }

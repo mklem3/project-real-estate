@@ -1,4 +1,7 @@
-<div class="app-bar-top font600 f24">
+<div class="app-bar-top font500 f24">
+  <div class="menu-icon">
+    <i class="material-icons">search</i>
+  </div>
   <div class="app-bar-title" >{{data.title}}</div>
   <div *ngFor="let option of data.options" class="menu-icon" (click)="option.onClick()">
     <i class="material-icons">{{option.icon}}</i>
